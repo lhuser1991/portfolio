@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(0,36,70);
+    color: white;
+    font-family: 'Iceland', cursive;
+
+    min-height: 100vh;
+    margin: 0em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formation-bloc {
+    margin: 1em auto 1em auto;
+    width: 75%;
+    border: 1px solid white;
+}
+
+.entete {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.entete img {
+    width: 10em;
+    margin: auto;
+}
+
+.entete img, .entete div, .corps p {
+    margin: 1em;
+}
+
+.corps div {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: .5em;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin: 1em;
+}
